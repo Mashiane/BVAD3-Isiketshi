@@ -1,0 +1,22 @@
+'#Event: Input (B As Boolean)
+'#Event: Submit (e As BANanoEvent)
+'#Event: SubmitPrevent (e As BANanoEvent)
+'#DesignerProperty: Key: LazyValidation, DisplayName: LazyValidation, FieldType: Boolean, DefaultValue: True, Description: If enabled. value will always be _true_ unless there are visible validation errors
+'#DesignerProperty: Key: SubmitPrevent, DisplayName: SubmitPrevent, FieldType: Boolean, DefaultValue: True, Description: Submit Prevent to prevent reload
+'#DesignerProperty: Key: TableName, DisplayName: Table Name*, FieldType: String, DefaultValue: tb1, Description: The name of the database table for CRUD
+'#DesignerProperty: Key: RecordSource, DisplayName: Record Source*, FieldType: String, DefaultValue: rs1, Description: The name of the Record Source. This is used for data binding e.g. category
+'#DesignerProperty: Key: Singular, DisplayName: Singular*, FieldType: String, DefaultValue: , Description: Singular Name of single Record in the table e.g. category
+#DesignerProperty: Key: Plural, DisplayName: Plural*, FieldType: String, DefaultValue: , Description: Plural Name of many Records in the table e.g. categories
+'#DesignerProperty: Key: PrimaryKey, DisplayName: Primary Key Field*, FieldType: String, DefaultValue: , Description: The name of the primary key field in the table
+'#DesignerProperty: Key: AutoIncrement, DisplayName: Auto Increment Field, FieldType: String, DefaultValue: , Description: The name of the auto increment field in the table
+'#DesignerProperty: Key: DisplayField, DisplayName: Delete Display Field*, FieldType: String, DefaultValue: , Description: The name of the field to display to confirm deletes
+'#DesignerProperty: Key: FocusOn, DisplayName: FocusOn, FieldType: String, DefaultValue: , Description: The name of the component to focus on when the dialog is opened
+#DesignerProperty: Key: Clearable, DisplayName: Elements Clearable, FieldType: Boolean, DefaultValue: False, Description: Controls should be clearable
+#DesignerProperty: Key: Dense, DisplayName: Elements Dense, FieldType: Boolean, DefaultValue: False, Description: Controls should be dense
+#DesignerProperty: Key: HideDetails, DisplayName: Elements Hide Details, FieldType: Boolean, DefaultValue: False, Description: Controls should hide details
+#DesignerProperty: Key: Filled, DisplayName: Elements Filled, FieldType: Boolean, DefaultValue: False, Description: Controls should be filled
+#DesignerProperty: Key: Outlined, DisplayName: Elements Outlined, FieldType: Boolean, DefaultValue: False, Description: Controls should be outlined
+#DesignerProperty: Key: Rounded, DisplayName: Elements Rounded, FieldType: Boolean, DefaultValue: False, Description: Controls should be rounded
+#DesignerProperty: Key: Shaped, DisplayName: Elements Shaped, FieldType: Boolean, DefaultValue: False, Description: Controls should be shaped
+#DesignerProperty: Key: Disabled, DisplayName: Disabled Form, FieldType: Boolean, DefaultValue: False, Description: Puts all children inputs into a disabled state
+#DesignerProperty: Key: Readonly, DisplayName: Readonly Form, FieldType: Boolean, DefaultValue: False, Description: Puts all children inputs into a readonly state
